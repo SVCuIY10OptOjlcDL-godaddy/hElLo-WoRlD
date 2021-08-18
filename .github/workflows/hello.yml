@@ -1,0 +1,12 @@
+name: Hello Action
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Something
+        run: echo "hElLo WoRlD"

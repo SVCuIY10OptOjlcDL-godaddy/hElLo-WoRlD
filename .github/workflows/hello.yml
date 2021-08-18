@@ -9,4 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Something
-        run: echo "hElLo WoRlD"
+        run: |
+          echo "hElLo WoRlD"
+          echo $FOO
+        

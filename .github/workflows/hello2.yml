@@ -1,0 +1,16 @@
+name: Hello Action
+
+on:
+  pull_request:
+    branches:
+      - "main"
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Something
+        run: |
+          echo "hElLo WoRlD - from hello2"
+          echo $FOO
+        

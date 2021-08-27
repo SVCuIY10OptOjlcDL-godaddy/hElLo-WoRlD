@@ -13,4 +13,3 @@ jobs:
         run: |
           echo "hElLo WoRlD - from hello2"
           echo $FOO
-        
